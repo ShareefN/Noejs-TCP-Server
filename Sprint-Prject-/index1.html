@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sprint Project</title>
+	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="main.css">
+	<meta charset = "UTF-8">
+</head>
+
+<body>
+
+	<header> 
+			<h1 id="name">Shareef Nuseibeh 😀</h1>
+			<div class="link-display"> <!-- hover feature -->
+				<button class = "btn-twitter">
+					<span><a href ="https://twitter.com/?logout=1553600684856" target="=_blank">Twitter</a></span>
+				</button>
+				<button class = "btn-linkedin">
+					<span><a href = "https://www.linkedin.com" target="_blank">LinkedIn</a></span>
+				</button>
+				<button class = "btn-instagram">
+					<span><a href ="https://www.instagram.com" target="_blank">Instagram</a></span>
+				</button>
+		</div> <!-- end button/hover div -->
+	</header> <!--main header end -->
+
+<div id = "wrap-color">
+	<h1 id = "status">Junior RBK Student</h1>
+	<img src = "https://rbk.org/img/logo/logo.png" id = "wrapper-img"/><!--RBK logo-->
+</div>
+
+<div class= "general-info">
+<div>
+	<h2>Hobbies</h2>
+<ol>
+	<li>Basketball</li>
+	<li>Swimming</li>
+	<li>Football</li>
+	<li>Track & Feild</li>
+	<li>Tennis</li>
+	<li>Bicycling</li>
+</ol>
+</div>
+
+<div>
+	<h2>Why RBK?</h2>
+	<ul>	
+		<li>Work on my soft-skills like:</li>
+			<ol>
+				<li>Leadership</li>
+				<li>TeamWork</li>
+				<li>Communication</li>
+			</ol>
+			<li>Work on my technical-skills like:</li>
+				<ol>
+					<li>Creating Websites</li>
+					<li>FrontEnd Develoopment</li>
+					<li>BackEnd Development</li>
+				</ol>
+		</ul>
+</div>
+</div>
+
+<div class="inquieries">
+	<h1 id ="quest-title">For more Inquieries:</h1>
+	<form>
+		<label>Your Name</label>
+		<input  id = "fname" type = "text" name = "name" placeholder = "Please enter your name" onblur="blurFunction()"><br>
+		<label>Your phone number</label>
+		<input type = "text" name = "phonenumber" placeholder="Please enter your phone number"></br>
+		<label>Your email adress</label>
+		<input type = "text" name ="email" placeholder = "Please enter your email adress">
+		<button id = "subBtn" onclick="submitBtn()">Submit</button>
+	</form>
+</div>
+
+
+
+
+	<footer class="main-footer">
+		<span>&copy;Shareef</span>
+	</footer>
+
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
